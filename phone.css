@@ -1,0 +1,51 @@
+
+@media screen and (max-width:600px) {
+
+    /* phone bady */
+    body{
+        max-width: 100%;
+    }  
+    
+    /* phone navigation */
+    #navigation .nav-pills{
+        margin: 0 .5rem;
+    }
+
+     #navigation .link, .footer .link{
+        padding: .3rem .5rem;
+    }
+
+    /* phone list*/
+    .list-item-inline{
+        padding: 0rem .3rem;
+    }
+
+    /* phone header */
+    #header{
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+
+    /* index.html */
+
+    .section div {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    /* phone projects.html */
+
+    /* .projects-list li{
+        padding: .4rem 0;
+    } */
+    .projects-list li .secondary-link{
+        margin:.5rem ;
+    }
+
+
+
+    /* phone footer */
+
+}
+
+

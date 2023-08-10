@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Raleway:wght@500&display=swap');
+
+:root {
+    --primary-color: #EF4444;
+    --off-primary: #FEF2F2;
+    --off-white:#F9FAFB;
+    --dark-gray: #6b7280;
+}
+
+
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+}
+
+
+hr {
+    margin: 1.5rem 0;
+}
+
+/* containers */
+.container {
+    padding: 0 1rem;
+
+}
+
+.center-container {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+/* links */
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+.secondary-link {
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+#navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem;
+}
+
+#navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation .nav-pills {
+    text-align: right;
+    margin: 0.1rem 1rem;
+}
+
+#navigation .link {
+    color: white;
+    font-size: 1.3rem;
+}
+
+#navigation .active {
+    font-weight: bold;
+}
+
+/* header */
+
+#header {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+#header .header-img {
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+
+#header .header-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    font-size: 2.3rem;
+}
+
+#header .header-heading .sub-heading {
+    color: var(--primary-color);
+}
+
+/* sections */
+
+.section {
+    font-family: 'Raleway', sans-serif;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.section h1 {
+    text-align: center;
+}
+.section p {
+    font-size: 1.2rem;
+}
+
+.off-p {
+    background-color: var(--off-primary);
+}
+
+.off-w{
+    background-color: var(--off-white);
+}
+
+/* footers */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
+/* Projects.html */
+.projects-list{
+    font-family: 'Raleway', sans-serif;
+    padding-inline-start: 0px;
+    list-style: none;
+}
+/* .projects-list div li{
+    padding:1rem 0rem;
+} */
+
+.projects-list div{
+    padding: 1rem 0rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+.projects-list div p{
+    margin-bottom: 2rem;
+}
+
+.projects-list li{
+    padding: .4rem 0;
+}
+
+/* #Projects.html */
+
+/* Blog.html */
+.blogs{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 4rem 0rem;
+    margin: 1rem 2rem;
+    border-radius: 5px;
+}
+
+
+
+
+/* #Blog.html */
+
+/* URL blog1 */
+
+.blog1 .blog1-img{
+    height: 350px;
+    width: 100%;
+}
+
+.blog1 h2, .blog1 p, .blog1 ul{
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog1 ul li{
+    padding: 1rem;
+}
+/* #URL blog1 */
